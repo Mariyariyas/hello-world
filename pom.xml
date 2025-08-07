@@ -21,13 +21,12 @@
     <module>webapp</module>
   </modules>
 
-  <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>maven-snapshots</name>
-      <url>http://3.110.170.92:8081/repository/maven-snapshots/</url>
-    </site>
-  </distributionManagement>
+ <distributionManagement>
+  <snapshotRepository>
+    <id>maven-snapshots</id>
+    <url>http://3.110.170.92:8081/repository/maven-snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 
   <build>
     <plugins>
